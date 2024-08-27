@@ -9,3 +9,6 @@ jobs:
     - run: make setup
     - run: make test
     - run: make lint
+    - uses: action/javascript-action@v1
+      with:
+        milliseconds: 1000  
