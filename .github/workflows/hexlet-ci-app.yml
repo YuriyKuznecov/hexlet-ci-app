@@ -4,7 +4,7 @@ jobs:
   build:
     runs-on: ubuntu latest
 
-    step:
+    steps:
       -uses: action/checkout@v4
       -uses: make setup
       -uses: make test
